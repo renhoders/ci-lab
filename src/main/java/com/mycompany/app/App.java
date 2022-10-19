@@ -7,11 +7,8 @@ package com.mycompany.app;
 public class App {
   
   
-  public static boolean esTrianguloPitagoro(int a, int b, int c) {
-  
-    return ((Math.pow(c,2) == (Math.pow(a,2)) Math.pow(b,2)));
-    
-    return false;
+  public static boolean esTrianguloPitagoro(int a, int b, int c) {  
+    return ((Math.pow(c,2) == (Math.pow(a,2) + Math.pow(b,2))));
   }
   
   public static String triangulo(int a, int b, int c) {
