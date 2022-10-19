@@ -15,11 +15,11 @@ public class App {
     
     
     if (Boolean.TRUE.equals(esTrianguloPitagoro(a,b,c))) {
-       return "es un triangulo pitagoro"
+       return "es un triangulo pitagoro";
     }
     
     if ((a != b) && (b != c ) && (a != c)) {
-      return " es un triangulo escaleno"
+      return " es un triangulo escaleno";
     }
       
 
